@@ -23,6 +23,17 @@ h6 {
   color: #343a40;
 }
 
+h2:before {
+  content: '';
+  height: 10px;
+  width: 50px;
+  border-radius: 5px;
+  margin-top: 1rem;
+  margin-bottom: 0.2rem;
+  display: block;
+  background: #761a20;
+}
+
 h1 {
   font-size: 2.5rem;
   line-height: 5.5rem;
@@ -59,6 +70,9 @@ p.lead {
   font-size: 1.5rem;
   line-height: 3.5rem;
   margin-right: 1rem;
+
+  -webkit-transition: all .2s ease;
+  transition: all .2s ease;
 }
 
 .social-icons a:last-child {
@@ -67,6 +81,8 @@ p.lead {
 
 .social-icons a:hover {
   background-color: #761a20;
+  -webkit-transform: translateY(-4px);
+  transform: translateY(-4px);
 }
 
 .fab {
@@ -95,6 +111,34 @@ p.lead {
   max-width: 6rem;
   max-height: 6rem;
   border: 0.1rem solid rgba(255, 0, 0, 0.2);
+}
+
+.download-btn:hover {
+  -webkit-transform: translateY(-4px);
+  transform: translateY(-4px);
+}
+
+.download-btn {
+  position: absolute;
+  top: 4rem;
+  right: 1rem;
+
+  padding: 0.5rem 1rem 0.5rem 1rem;
+
+  border-radius: 4px;
+  box-shadow: inset 0 0px 4px rgba(0,0,0,.3);
+  
+  color: white;
+  background-color: #ca7e71;
+
+  -webkit-transition: all .2s ease;
+  transition: all .2s ease;
+}
+
+a.download-btn:hover, a.download-btn:focus, a.download-btn:active {
+  text-decoration: none;
+  color: white;
+  background-color: #761a20;
 }
 
 @media (min-width: 992px) {
@@ -188,6 +232,10 @@ section.resume-section .resume-item .resume-date {
 
   h3 {
     font-size: 1.5rem;
+  }
+
+  .download-btn {
+    right: 3rem;
   }
 }
 
