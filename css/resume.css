@@ -207,6 +207,40 @@ section.resume-section .resume-item .resume-date {
   min-width: none;
 }
 
+ul.timeline {
+  list-style-type: none;
+  position: relative;
+  padding-inline-start: 0;
+}
+
+ul.timeline:before {
+  content: ' ';
+  background: #ccc;
+  display: inline-block;
+  position: absolute;
+  left: 0.5rem;
+  width: 2px;
+  height: 100%;
+  z-index: 400;
+}
+
+ul.timeline > li {
+  padding-left: 2rem;
+}
+
+ul.timeline > li:before {
+  content: ' ';
+  background: #761a20;
+  display: inline-block;
+  position: absolute;
+  border-radius: 10px;
+  box-shadow: 0 0 0 8px rgba(118,26,32, .4);
+  left: 1px;
+  width: 16px;
+  height: 16px;
+  z-index: 400;
+}
+
 @media (min-width: 768px) {
   section.resume-section {
     min-height: 100vh;
