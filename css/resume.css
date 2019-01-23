@@ -300,12 +300,12 @@ a:hover, a:focus, a:active {
   color: #ca7e71;
 }
 
-.progress{
+.progress {
 	border-radius: 15px;
 	height: 25px;
 }
 
-.language-name{
+.language-name {
 	text-transform: none;
 	margin-left: 0;
 	padding-left: 0;
@@ -319,7 +319,7 @@ a:hover, a:focus, a:active {
     background-color: #46a546 ;
 }
 
-.progress  .progress-bar {
+.progress .progress-bar {
     animation-name: animateBar;
     animation-iteration-count: 1;
     animation-timing-function: ease-in;
