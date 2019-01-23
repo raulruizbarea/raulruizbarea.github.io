@@ -241,6 +241,13 @@ ul.timeline > li:before {
   z-index: 400;
 }
 
+.copyright {
+  background: #761A20;
+  color: white;
+  padding: 1rem 0;
+  margin: 0;
+}
+
 @media (min-width: 768px) {
   section.resume-section {
     min-height: 100vh;
