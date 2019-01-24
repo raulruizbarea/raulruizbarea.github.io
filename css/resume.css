@@ -562,6 +562,13 @@ a:hover, a:focus, a:active {
   margin-bottom: 0;
 }
 
+.h6-text {
+  text-transform: none;
+  font-style: italic;
+  font-weight: normal;
+  color: #343a40;
+}
+
 .ratings-icons {
   color: #fec42d;
 }
