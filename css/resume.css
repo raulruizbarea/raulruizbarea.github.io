@@ -578,3 +578,13 @@ a:hover, a:focus, a:active {
   font-style: italic;
   margin-bottom: 0.5rem;
 }
+
+.cover-card {
+	padding: 0px;
+	margin: 0px;
+	height:200px;
+}
+
+.cover-text {
+  color: white;
+}
