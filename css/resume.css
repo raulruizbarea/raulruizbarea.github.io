@@ -553,6 +553,21 @@ a:hover, a:focus, a:active {
     transform: rotate(180deg);
   }
 }
+
 .progress-circle {
   margin-bottom: 1em;
+}
+
+.card-title {
+  margin-bottom: 0;
+}
+
+.ratings-icons {
+  color: #fec42d;
+}
+
+.testimonial-text {
+  font-size: 0.8rem;
+  font-style: italic;
+  margin-bottom: 0.5rem;
 }
